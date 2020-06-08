@@ -21,7 +21,7 @@ import { getSystemInfo } from "mapp_common/utils/systemInfo";
         list: store.transactionListReducer.list,
     };
 })
-class ReturnManagement extends Component {
+class TransactionManagement extends Component {
 
     constructor (props) {
         super(props);
@@ -46,7 +46,7 @@ class ReturnManagement extends Component {
         changeTab(v, 1, pageSize, '');
     };
     render () {
-        const { activeTabKey, list, searchVal, tradeCounts } = this.props;
+        const { activeTabKey, tradeCounts } = this.props;
         const tabList = Object.keys(TRANSACTION_TABS).map((key) => {
             return { title: TRANSACTION_TABS[key].name, key };
         });
@@ -92,4 +92,4 @@ class ReturnManagement extends Component {
     }
 }
 
-export default ReturnManagement;
+export default TransactionManagement;

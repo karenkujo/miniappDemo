@@ -57,16 +57,6 @@ class OrderCard extends Component {
                         <Text>{order.title}</Text>
                         <Text className="order-jiancheng">设置简称</Text>
                     </View>
-                    {
-                        order.sku_properties_values &&
-                        <View className='order-sku'>
-                            {
-                                order.sku_properties_values.map((item) => {
-                                    return <Text className='order-sku-item'>{item}</Text>;
-                                })
-                            }
-                        </View>
-                    }
                     {this.renderDiscountMsg()}
                 </View>
             </View>
