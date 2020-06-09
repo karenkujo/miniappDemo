@@ -1,0 +1,7 @@
+{
+    "docthis.includeAuthorTag": true,
+    "docthis.includeDescriptionTag": true,
+    "docthis.includeDateTag": true,
+    "docthis.inferTypesFromNames": true,
+    "docthis.enableHungarianNotationEvaluation": true
+}
