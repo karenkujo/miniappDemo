@@ -4,6 +4,7 @@ import DialogManager from "pcComponents/dialogManager";
 import { events } from "mapp_common/utils/eventManager";
 import RefundManagement from "../refundManagement";
 import TransactionManagement from "../transactionManagement";
+import GoodsManagement from "../goodsManagement";
 import Marketing from "mapp_common/marketing";
 import { MARKETING_TYPE, PC_COMMON_MARKETING_MASK } from "tradePublic/marketing/constants";
 import { showModalVIP } from "mapp_common/marketing/utils/biz";
@@ -226,6 +227,7 @@ class Index extends Component {
                                 <View slot='tradeList'>紧张施工中...</View>
                                 <View slot='refundManagement'><RefundManagement /></View>
                                 <View slot='transactionManagement'><TransactionManagement /></View>
+                                <View slot='goodsManagement'><GoodsManagement /></View>
                                 <View slot='test'><Test /></View>
                             </router-view>
                         </View>

@@ -1,0 +1,85 @@
+.Mytable {
+    background-color: #fff;
+    position: absolute;
+    top: 43px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 15px 20px 10px 20px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    .table-header {
+        height: 35px;
+        display: flex;
+        line-height: 35px;
+        background-color: #e6e6e6;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, .1);
+        .header-item {
+            font-size: 14px;
+            text-align: center;
+        }
+        .baby-msg {
+            flex: 10;
+        }
+        .baby-price {
+            flex: 3;
+        }
+        .baby-num {
+            flex: 3;
+        }
+        .baby-time {
+            flex: 3;
+        }
+        .baby-detail {
+            flex: 2;
+        }
+        .baby-caozuo {
+            flex: 3;
+        }
+    }
+    .table-content {
+        position: absolute;
+        top: 37px;
+        bottom: 47px;
+        left: 0;
+        right: 0;
+        overflow-y: scroll;
+        .content-wrapper {
+            width: 100%;
+            .empty {
+                padding-top: 120px;
+            }
+        }
+    }
+    .table-content::-webkit-scrollbar {
+        display: none;
+    }
+    .table-footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 45px;
+        display: flex;
+        line-height: 35px;
+        background-color: #e6e6e6;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, .1);
+        align-items: center;
+        .footer-checkbox {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            .checkbox {
+                margin: 0 5px;
+            }
+            .footer-num {
+                color: #3089dc;
+            }
+        }
+        .pagination {
+            position: absolute;
+            right: 10px;
+        }
+    }
+}

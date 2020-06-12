@@ -18,6 +18,13 @@ export const routes = [
                 component: 'transactionManagement',
                 path: '/transactionManagement',
                 icon: 'iconfont-fahuodan',
+            },
+            {
+                name: '商品管理',
+                default: false,
+                component: 'goodsManagement',
+                path: '/goodsManagement',
+                icon: 'iconfont-dingdanguanli',
             }
         ],
     }

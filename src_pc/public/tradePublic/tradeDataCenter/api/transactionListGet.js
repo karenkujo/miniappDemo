@@ -2,7 +2,7 @@ import { transaction_default_fields, soldget_all_type } from "tradePublic/tradeD
 import taobaoTransactionReceiveGet from "tradePublic/taobaoTransactionReceiveGet";
 import {fullinfoGetBatch} from "tradePublic/tradeDataCenter/api/fullinfoGet";
 import { NOOP } from "tradePolyfills/index";
-import { getArrayByKey, getOrders, resolveTopResponse } from "tradePublic/tradeDataCenter/common/resolveTopResponse";
+import { getArrayByKey, resolveTopResponse } from "tradePublic/tradeDataCenter/common/resolveTopResponse";
 import { handleError } from "tradePublic/tradeDataCenter/common/handleError";
 export function getTransactionList(
     {

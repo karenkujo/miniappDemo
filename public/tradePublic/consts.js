@@ -155,6 +155,16 @@ export const TRADE_SORT_BY = {
     create_time_asc: { name:"拍下时间从远到近", key:'create_time_asc' }, // 下单时间
     create_time_desc: { name:"拍下时间从近到远", key:'create_time_desc' },
 };
+export const GOODS_TABS = {
+    ONSALE: {
+        key: 'ONSALE',
+        name: '出售中'
+    },
+    ONSTORE: {
+        key: 'ONSTORE',
+        name: '仓库中'
+    }
+}
 export const REFUND_TABS = {
     ALL:{
         key: 'ALL',
